@@ -1,2 +1,3 @@
 # Advise-generator
-This generate random advise on click of the dice button
+This mini application generates random new peice of advise at the click of a dice button.
+using the Advise Slip JSON API and developed with React.
