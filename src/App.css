@@ -1,0 +1,21 @@
+*{
+  font-family: 'Manrope', sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.attribution{
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+}
+
+.attribution a{
+  color: #fff;
+}
+

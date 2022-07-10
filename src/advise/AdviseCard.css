@@ -1,0 +1,61 @@
+.adviceCard{
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 10px;
+    width: 50%;
+    height: 100%;
+    margin: 100px auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.advisehead{
+    color: hsl(150, 100%, 66%);
+    letter-spacing: 2px;
+    padding-top: 30px;
+}
+.adviceBody{
+    font-size: 28px;
+    color: hsl(193, 38%, 86%);
+    padding: 0px 30px;
+}
+.divider{
+    padding-bottom: 30px;
+}
+
+.clickDice{
+ background-color: hsl(150, 100%, 66%);
+ width: 50px;
+ height: 50px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 50%;
+ position: absolute;
+ left: 48.3%;
+ 
+}
+
+.clickDice:hover{
+    cursor: pointer;
+    box-shadow: 0px 6px 20px hsl(150, 100%, 66%);
+}
+
+.smallDivider{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .adviceCard {
+        width: 80%;
+    }
+    .smallDivider{
+        display: block;
+        margin: 0 10px;
+    }
+    .bigDivider{
+        display: none;
+    }
+    .clickDice{
+        left: 43%;
+    }
+  }
